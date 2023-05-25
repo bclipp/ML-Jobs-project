@@ -10,4 +10,4 @@ def get_table(table_name):
     fill me in
     """
 
-    SparkSession.getActiveSession().table(table_name)
+    SparkSession.getActiveSession().read.table(table_name)
